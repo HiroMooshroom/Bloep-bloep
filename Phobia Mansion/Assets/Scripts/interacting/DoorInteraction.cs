@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Timeline.Actions;
@@ -6,8 +7,13 @@ using UnityEngine;
 public class DoorInteraction : MonoBehaviour
 {
     public Interactable interaction;
+    GameObject player;
     public Animator padlockAnimator;
-    public Animator doorOpening;
+    public Animator doorAnimator;
+    private void Start()
+    {
+        player = GameObject.Find("player");
+    }
     public void Update()
     {
         if (interaction.interactable == true)
@@ -15,8 +21,14 @@ public class DoorInteraction : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.E))
             {
                 padlockAnimator.SetTrigger("PadLockFalling");
-                doorOpening.SetTrigger("DoorOpen");
+                doorAnimator.SetInteger("DoorState", 1);
+
             }
         }
+        if(player.GetComponent<Movement>().colliding == true)
+        {
+            doorAnimator.SetInteger("DoorState", 2);
+        }
     }
+    
 }
