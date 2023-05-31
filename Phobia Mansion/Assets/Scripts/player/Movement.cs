@@ -8,7 +8,7 @@ public class Movement : MonoBehaviour
 
     public float horizontal;
     public float vertical;
-    public bool colliding;
+    public bool collidingDoorTrigger;
     public Vector3 moveDirection;
 
     void Update()
@@ -26,11 +26,11 @@ public class Movement : MonoBehaviour
     {
         if (other.CompareTag("TriggerDoorClosing"))
         {
-            colliding = true;
+            collidingDoorTrigger = true;
         }
         else
         {
-            colliding = false;
+            collidingDoorTrigger = false;
         }
     }
 }

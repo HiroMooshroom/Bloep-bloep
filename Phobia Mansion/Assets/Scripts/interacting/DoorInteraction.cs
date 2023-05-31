@@ -6,17 +6,18 @@ using UnityEngine;
 
 public class DoorInteraction : MonoBehaviour
 {
-    public Interactable interaction;
+    public Interaction interaction;
     GameObject player;
     public Animator padlockAnimator;
     public Animator doorAnimator;
+    public bool canInteract;
     private void Start()
     {
         player = GameObject.Find("player");
     }
     public void Update()
     {
-        if (interaction.interactable == true)
+        if (canInteract == true)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
@@ -25,7 +26,7 @@ public class DoorInteraction : MonoBehaviour
 
             }
         }
-        if(player.GetComponent<Movement>().colliding == true)
+        if(player.GetComponent<Movement>().collidingDoorTrigger == true)
         {
             doorAnimator.SetInteger("DoorState", 2);
         }
