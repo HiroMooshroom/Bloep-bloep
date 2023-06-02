@@ -8,12 +8,12 @@ public class KeyPickup : MonoBehaviour
     public float checkradius;
     public LayerMask keyInteraction;
 
+    public GameObject keyObject;
     public GameObject key;
     public GameObject keyPickedUp;
     public GameObject padLock;
 
     public bool isKeyPickedUp;
-    public bool isKeyUsed;
 
     private void Update()
     {
@@ -21,8 +21,8 @@ public class KeyPickup : MonoBehaviour
     }
     public void KeyPickUp()
     {
-        keyInRange = Physics.CheckSphere(transform.position, checkradius, keyInteraction);
-        if (keyInRange)
+        float distance = Vector3.Distance(keyObject.transform.position, transform.position);
+        if (distance <= 3)
         {
             if (Input.GetKeyDown(KeyCode.E))
             {

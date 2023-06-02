@@ -1,11 +1,10 @@
-using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Timeline.Actions;
 using UnityEngine;
 
-public class DoorInteraction : MonoBehaviour
+public class DoorAndKeyInteraction : MonoBehaviour
 {
+    public KeyPickup keyPickup;
     GameObject player;
     public Animator padlockAnimator;
     public Animator doorAnimator;
@@ -19,13 +18,17 @@ public class DoorInteraction : MonoBehaviour
         float distance = Vector3.Distance(player.transform.position, transform.position);
         if (distance <= 3)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if(Input.GetKeyDown(KeyCode.E))
             {
-                padlockAnimator.SetTrigger("PadLockFalling");
-                doorAnimator.SetInteger("DoorState", 1);
+                if (keyPickup.isKeyPickedUp == true)
+                {
+                    padlockAnimator.SetTrigger("PadLockFalling");
+                    doorAnimator.SetInteger("DoorState", 1);
+                    keyPickup.keyPickedUp.SetActive(false);
+                }
             }
         }
-        if(player.GetComponent<Movement>().collidingDoorTrigger == true)
+        if (player.GetComponent<Movement>().collidingDoorTrigger == true)
         {
             doorAnimator.SetInteger("DoorState", 2);
             player.GetComponent<Movement>().collidingDoorTrigger = false;

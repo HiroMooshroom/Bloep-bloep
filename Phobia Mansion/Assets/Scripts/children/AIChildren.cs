@@ -17,7 +17,6 @@ public class AIChildren : MonoBehaviour
         {
             agent.enabled = true;
             agent.destination = player.transform.position;
-            keyPickUp.isKeyPickedUp = false;
         }
     }
     public void OnTriggerEnter(Collider other)
