@@ -31,6 +31,5 @@ public class KeyPickup : MonoBehaviour
                 isKeyPickedUp = true;
             }
         }
-
     }
 }

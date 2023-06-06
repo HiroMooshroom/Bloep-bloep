@@ -34,7 +34,7 @@ public class Stamina : MonoBehaviour
             {
                 stamina -= stamCon * Time.deltaTime;
                 distance += Time.deltaTime;
-                speed.speed = 10f;
+                speed.speed = 7f;
             }
         }
         else
