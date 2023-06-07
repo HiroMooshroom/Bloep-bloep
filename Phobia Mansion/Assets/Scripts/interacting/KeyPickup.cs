@@ -28,6 +28,7 @@ public class KeyPickup : MonoBehaviour
             {
                 key.SetActive(false);
                 keyPickedUp.SetActive(true);
+                keyObject.SetActive(false);
                 isKeyPickedUp = true;
             }
         }
