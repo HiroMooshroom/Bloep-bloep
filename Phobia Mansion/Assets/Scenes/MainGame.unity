@@ -195,6 +195,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Doors
       objectReference: {fileID: 0}
+    - target: {fileID: 1288240701020417469, guid: 8d0596649c74d504e9f4a0d3fdecae63,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 1500213426530982748, guid: 8d0596649c74d504e9f4a0d3fdecae63,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
