@@ -9,6 +9,7 @@ TagManager:
   - ChildrenTrigger
   - door
   - door exit
+  - VictoryTrigger
   layers:
   - Default
   - TransparentFX
