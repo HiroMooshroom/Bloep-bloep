@@ -10,6 +10,7 @@ public class VictoryTrigger : MonoBehaviour
     public GameObject crosshair1;
     public Interaction interaction;
     public CameraMovement cameraScript;
+    public GameObject backGround;
 
     public void OnTriggerEnter(Collider other)
     {
@@ -19,6 +20,8 @@ public class VictoryTrigger : MonoBehaviour
             movement.canMove = false;
             cameraScript.canRotate = false;
             Cursor.lockState = CursorLockMode.None;
+            backGround.SetActive(true);
+            
 
 
         }
