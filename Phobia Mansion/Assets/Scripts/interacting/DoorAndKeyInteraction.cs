@@ -25,6 +25,7 @@ public class DoorAndKeyInteraction : MonoBehaviour
                     padlockAnimator.SetTrigger("PadLockFalling");
                     doorAnimator.SetInteger("DoorState", 1);
                     keyPickup.keyPickedUp.SetActive(false);
+                    keyPickup.isKeyPickedUp = false;
                 }
             }
         }

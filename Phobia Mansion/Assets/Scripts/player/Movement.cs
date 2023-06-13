@@ -36,9 +36,5 @@ public class Movement : MonoBehaviour
         {
             collidingDoorTrigger = true;
         }
-        else
-        {
-            collidingDoorTrigger = false;
-        }
     }
 }
