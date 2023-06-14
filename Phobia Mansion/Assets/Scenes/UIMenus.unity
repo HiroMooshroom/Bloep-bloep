@@ -649,7 +649,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 5dc7b32ed4804464e99b7921e956e835, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -1605,6 +1605,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 413679408}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &814694337
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1890,9 +1902,6 @@ GameObject:
   - component: {fileID: 913846497}
   - component: {fileID: 913846498}
   - component: {fileID: 913846499}
-  - component: {fileID: 913846502}
-  - component: {fileID: 913846501}
-  - component: {fileID: 913846500}
   m_Layer: 0
   m_Name: ButtonFunctionScripts
   m_TagString: Untagged
@@ -1994,48 +2003,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   screen1: {fileID: 454468043}
   screen2: {fileID: 732021989}
---- !u!114 &913846500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913846492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b13503c939e4e9468aab8807c017cda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  screen1: {fileID: 0}
-  screen2: {fileID: 0}
---- !u!114 &913846501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913846492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c8e3804d5e2e8c7489b0e23905683b13, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  screen1: {fileID: 0}
-  screen2: {fileID: 0}
---- !u!114 &913846502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913846492}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9cb0ad351ea815345b40a82d2cf136e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  screen1: {fileID: 732021989}
-  screen2: {fileID: 1156484404}
 --- !u!1 &1020175994
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,7 +2163,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 913846502}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: MenuBack2, Assembly-CSharp
         m_MethodName: TransitionScreen
         m_Mode: 1
@@ -2584,7 +2551,6 @@ GameObject:
   - component: {fileID: 1156484405}
   - component: {fileID: 1156484407}
   - component: {fileID: 1156484406}
-  - component: {fileID: 1156484408}
   m_Layer: 5
   m_Name: MainMenu
   m_TagString: Untagged
@@ -2651,14 +2617,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1156484404}
   m_CullTransparentMesh: 1
---- !u!81 &1156484408
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1156484404}
-  m_Enabled: 1
 --- !u!1 &1217467268
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,6 +3900,18 @@ MonoBehaviour:
       - m_Target: {fileID: 913846497}
         m_TargetAssemblyTypeName: ToGame, Assembly-CSharp
         m_MethodName: ToMainGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 413679408}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

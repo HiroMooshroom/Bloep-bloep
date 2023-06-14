@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuBack2 : MonoBehaviour
+public class SettingsToMenu : MonoBehaviour
 {
     public GameObject screen1;
     public GameObject screen2;
