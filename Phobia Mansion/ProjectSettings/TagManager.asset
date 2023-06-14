@@ -10,6 +10,7 @@ TagManager:
   - door
   - door exit
   - VictoryTrigger
+  - TrypoTrigger
   layers:
   - Default
   - TransparentFX
