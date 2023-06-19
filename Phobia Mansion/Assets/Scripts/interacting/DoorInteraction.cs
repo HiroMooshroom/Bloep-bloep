@@ -6,7 +6,6 @@ using UnityEngine;
 public class DoorInteraction : MonoBehaviour
 {
     GameObject player;
-    public Animator padlockAnimator;
     public Animator doorAnimator;
 
     private void Start()
@@ -20,14 +19,8 @@ public class DoorInteraction : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-                padlockAnimator.SetTrigger("PadLockFalling");
                 doorAnimator.SetInteger("DoorState", 1);
             }
-        }
-        if(player.GetComponent<Movement>().collidingDoorTrigger == true)
-        {
-            doorAnimator.SetInteger("DoorState", 2);
-            player.GetComponent<Movement>().collidingDoorTrigger = false;
         }
     }
 }

@@ -1,17 +1,40 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
+    public Transform checkpoint;
+    public Vector3 startPos;
     public float speed;
-
     public float horizontal;
     public float vertical;
     public bool collidingDoorTrigger;
     public Vector3 moveDirection;
-    public bool canMove = true;
+    public bool canMove;
 
+
+
+    private void Start()
+    {
+        canMove = true;
+        startPos = new Vector3(15.44f, 2.95f, -8.42f);
+        if (PlayerPrefs.HasKey("xPos"))
+        {
+            startPos.x = PlayerPrefs.GetFloat("xPos");
+        }
+        if (PlayerPrefs.HasKey("yPos"))
+        {
+            startPos.y = PlayerPrefs.GetFloat("yPos");
+        }
+        if (PlayerPrefs.HasKey("zPos"))
+        {
+            startPos.z = PlayerPrefs.GetFloat("zPos");
+        }
+        transform.position = startPos;
+    }
     void Update()
     {
         if (canMove ==  true)
@@ -36,5 +59,12 @@ public class Movement : MonoBehaviour
         {
             collidingDoorTrigger = true;
         }
+    }
+
+    public void Death()
+    {
+        PlayerPrefs.SetFloat("xPos", checkpoint.transform.position.x);
+        PlayerPrefs.SetFloat("yPos", checkpoint.transform.position.y);
+        PlayerPrefs.SetFloat("zPos", checkpoint.transform.position.z);
     }
 }
