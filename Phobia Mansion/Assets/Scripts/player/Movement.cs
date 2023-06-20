@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
 
     private void Start()
     {
-        startPos = new Vector3(15.44f, 2.95f, -8.42f);
+        startPos = new Vector3(0f, 0.5f, 0f);
         if (PlayerPrefs.HasKey("xPos"))
         {
             startPos.x = PlayerPrefs.GetFloat("xPos");
