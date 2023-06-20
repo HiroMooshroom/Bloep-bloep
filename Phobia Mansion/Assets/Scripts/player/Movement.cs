@@ -14,12 +14,12 @@ public class Movement : MonoBehaviour
     public bool collidingDoorTrigger;
     public Vector3 moveDirection;
     public bool canMove;
+    public int playerPrefsint;
 
 
 
     private void Start()
     {
-        canMove = true;
         startPos = new Vector3(15.44f, 2.95f, -8.42f);
         if (PlayerPrefs.HasKey("xPos"))
         {
@@ -33,7 +33,11 @@ public class Movement : MonoBehaviour
         {
             startPos.z = PlayerPrefs.GetFloat("zPos");
         }
-        transform.position = startPos;
+        if(PlayerPrefs.GetInt("StartRespawn") == 1)
+        {
+            transform.position = startPos;
+            PlayerPrefs.SetInt("StartRespawn", 0);
+        }
     }
     void Update()
     {
@@ -66,5 +70,7 @@ public class Movement : MonoBehaviour
         PlayerPrefs.SetFloat("xPos", checkpoint.transform.position.x);
         PlayerPrefs.SetFloat("yPos", checkpoint.transform.position.y);
         PlayerPrefs.SetFloat("zPos", checkpoint.transform.position.z);
+        PlayerPrefs.SetInt("StartRespawn", 1);
+        SceneManager.LoadScene("MainGame");
     }
 }

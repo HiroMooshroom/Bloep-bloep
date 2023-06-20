@@ -263,7 +263,7 @@ PrefabInstance:
     - target: {fileID: 8175777054171121002, guid: 8d0596649c74d504e9f4a0d3fdecae63,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8d0596649c74d504e9f4a0d3fdecae63, type: 3}
@@ -799,7 +799,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.5
-  m_Speed: 3.8
+  m_Speed: 3.5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120
@@ -2551,7 +2551,7 @@ Animator:
   m_GameObject: {fileID: 859831601}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: a8a631036f93cea489e6b318085c706d, type: 2}
+  m_Controller: {fileID: 9100000, guid: c5183967c61fce049a0de352ad361668, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -4194,7 +4194,7 @@ Animator:
   m_GameObject: {fileID: 1632456625}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f6f367fc134d15a48be403632ca367d5, type: 2}
+  m_Controller: {fileID: 9100000, guid: 63f1bb54e9276634881820c2aa396d7a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -5589,6 +5589,7 @@ MonoBehaviour:
   collidingDoorTrigger: 0
   moveDirection: {x: 0, y: 0, z: 0}
   canMove: 1
+  playerPrefsint: 0
 --- !u!23 &2057311530
 MeshRenderer:
   m_ObjectHideFlags: 0
