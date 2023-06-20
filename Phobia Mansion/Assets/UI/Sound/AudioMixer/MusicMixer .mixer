@@ -6,7 +6,7 @@ AudioMixerController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: MusicMixer
+  m_Name: 'MusicMixer '
   m_OutputGroup: {fileID: 0}
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
@@ -16,11 +16,11 @@ AudioMixerController:
   m_EnableSuspend: 1
   m_UpdateMode: 0
   m_ExposedParameters:
-  - guid: 58a20028c6f60a84abb9ae13b7981da6
+  - guid: 3838c0eca50bce045ae507b005e6965e
     name: Music
   m_AudioMixerGroupViews:
   - guids:
-    - 49898ec51c3047347a53550341ea1e42
+    - 0c874f363f3afdf45a8789798ff021f9
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -32,14 +32,14 @@ AudioMixerGroupController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Master
   m_AudioMixer: {fileID: 24100000}
-  m_GroupID: 49898ec51c3047347a53550341ea1e42
+  m_GroupID: 0c874f363f3afdf45a8789798ff021f9
   m_Children: []
-  m_Volume: 58a20028c6f60a84abb9ae13b7981da6
-  m_Pitch: 3e8dcc5077fa5c6439e87bf403956a30
+  m_Volume: 3838c0eca50bce045ae507b005e6965e
+  m_Pitch: 65874b5af28e2964483c98233c142222
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: 24400004}
-  m_UserColorIndex: 6
+  m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
   m_BypassEffects: 0
@@ -50,9 +50,9 @@ AudioMixerEffectController:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: 
-  m_EffectID: d55b719e59aba0e4eb7394404b69ccbd
+  m_EffectID: e2e8ef5f76f10af4a932ef0127d41f32
   m_EffectName: Attenuation
-  m_MixLevel: 49c734a0f4ae201429ad3130e1af4155
+  m_MixLevel: 453acef31d9fb3142a6c2042e2d753df
   m_Parameters: []
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
@@ -65,11 +65,6 @@ AudioMixerSnapshotController:
   m_PrefabAsset: {fileID: 0}
   m_Name: Snapshot
   m_AudioMixer: {fileID: 24100000}
-  m_SnapshotID: e3650da0bde7b9e4aa0e1d4929e6e23b
-  m_FloatValues:
-<<<<<<< Updated upstream
-    58a20028c6f60a84abb9ae13b7981da6: -20
-=======
-    58a20028c6f60a84abb9ae13b7981da6: -10
->>>>>>> Stashed changes
+  m_SnapshotID: 5a01a53ad741a10498fbf24bf397ba77
+  m_FloatValues: {}
   m_TransitionOverrides: {}

@@ -1784,7 +1784,7 @@ AudioSource:
   m_GameObject: {fileID: 413679406}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 4cbeb968d9f05084aafd032e90ea4da2,
+  OutputAudioMixerGroup: {fileID: 24300002, guid: e7a9376e9e80c17478451d05e02680f9,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 5dc7b32ed4804464e99b7921e956e835, type: 3}
   m_PlayOnAwake: 0
@@ -2000,7 +2000,7 @@ AudioSource:
   m_GameObject: {fileID: 461078422}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 14ee09bc98d9da242844508c3561fb10,
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 489829a0f14b4394887aa59f6a20e50e,
     type: 2}
   m_audioClip: {fileID: 8300000, guid: 3d17d7334a47c8046942891e98da40f8, type: 3}
   m_PlayOnAwake: 1
@@ -3914,7 +3914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7e14206a31dfcb41be9620c928c1777, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicMixer: {fileID: 24100000, guid: 14ee09bc98d9da242844508c3561fb10, type: 2}
+  musicMixer: {fileID: 24100000, guid: 844014c90981386459c2e0bc7e3afdb3, type: 2}
 --- !u!114 &913846499
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3955,7 +3955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17c94c7e231ad1046bb430d52e7e11c8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sfxMixer: {fileID: 24100000, guid: 4cbeb968d9f05084aafd032e90ea4da2, type: 2}
+  sfxMixer: {fileID: 24100000, guid: e7a9376e9e80c17478451d05e02680f9, type: 2}
 --- !u!114 &913846502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4589,6 +4589,18 @@ MonoBehaviour:
       - m_Target: {fileID: 913846496}
         m_TargetAssemblyTypeName: QuitGame, Assembly-CSharp
         m_MethodName: QuitTheGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 413679408}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
