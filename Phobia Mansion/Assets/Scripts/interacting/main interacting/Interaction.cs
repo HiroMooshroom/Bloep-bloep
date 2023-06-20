@@ -8,7 +8,7 @@ using TMPro;
 public class Interaction : MonoBehaviour
 {
     public GameObject crosshair1, crosshair2;
-    public TMP_Text interact;
+    public GameObject interact;
     RaycastHit hit;
     public bool canInteract;
     public LayerMask layer;
@@ -19,17 +19,15 @@ public class Interaction : MonoBehaviour
         {
             crosshair1.SetActive(false);
             crosshair2.SetActive(true);
-            interact.enabled = true;
+            interact.SetActive(true);
             canInteract = true;
-            
         }
         else
         {
             crosshair1.SetActive(true);
             crosshair2.SetActive(false);
-            interact.enabled = false;
+            interact.SetActive(false);
             canInteract = false;
-            
         }
     }
 }

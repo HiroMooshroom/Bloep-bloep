@@ -4,7 +4,6 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.SceneManagement;
-using static Unity.VisualScripting.Metadata;
 
 public class AIChildren : MonoBehaviour
 {
