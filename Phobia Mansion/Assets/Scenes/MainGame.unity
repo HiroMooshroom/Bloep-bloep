@@ -7468,6 +7468,11 @@ PrefabInstance:
       propertyPath: m_TagString
       value: TrypoTrigger
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 018de5d4b5fe2d0479a3bb4f33abdbfa,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 018de5d4b5fe2d0479a3bb4f33abdbfa, type: 3}
 --- !u!1 &1824371708
@@ -8191,6 +8196,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lobby
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 39643e57c94e1c54db07f5979762280c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39643e57c94e1c54db07f5979762280c, type: 3}
 --- !u!1 &1927119280 stripped
@@ -8765,6 +8775,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Big door
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 61602391506df7c448d0998eef3f5c52,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61602391506df7c448d0998eef3f5c52, type: 3}
