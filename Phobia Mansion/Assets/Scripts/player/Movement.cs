@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class Movement : MonoBehaviour
 {
+    public Rigidbody rb;
     public Transform checkpoint;
     public Vector3 startPos;
     public float speed;
@@ -49,11 +50,11 @@ public class Movement : MonoBehaviour
             moveDirection.x = horizontal;
             moveDirection.z = vertical;
 
-            transform.Translate(moveDirection * speed * Time.deltaTime);
+            rb.AddForce(moveDirection);
         }
         if(canMove == false)
         {
-            print("you cannot move");
+
         }
 
     }
