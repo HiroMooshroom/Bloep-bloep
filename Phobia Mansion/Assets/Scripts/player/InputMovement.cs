@@ -5,9 +5,11 @@ using UnityEngine.InputSystem;
 
 public class InputMovement : MonoBehaviour
 {
+    
     public float speed;
     Vector2 moveInput;
     Rigidbody rb;
+
 
     public void Start()
     {
@@ -22,8 +24,8 @@ public class InputMovement : MonoBehaviour
         Vector3 movingDirection = new Vector3(moveInput.x * speed, rb.velocity.y, moveInput.y * speed);
         rb.velocity = transform.TransformDirection(movingDirection);
     }
-    public void OnMovement(InputValue value)
+    public void OnMovement(InputValue context)
     {
-        moveInput = value.Get<Vector2>();
+        moveInput = context.Get<Vector2>();
     }
 }
