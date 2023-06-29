@@ -8,9 +8,13 @@ using UnityEngine.SceneManagement;
 public class AIChildren : MonoBehaviour
 {
     public bool died;
+    public MeshRenderer player;
+    public Animator animator;
+    public GameObject jumpCam;
     public NavMeshAgent agent;
     public KeyPickup keyPickUp;
     public Movement movement;
+    public InputMovement inputMovement;
 
     public void Update()
     {
@@ -25,9 +29,18 @@ public class AIChildren : MonoBehaviour
     {
         if (other.CompareTag("ChildrenTrigger"))
         {
+            jumpCam.SetActive(true);
+            StartCoroutine(EndJump());
             agent.isStopped = true;
             died = true;
-            movement.Death();
+            inputMovement.canWalk = false;
+            player.enabled = false;
+            keyPickUp.keyPickedUp.SetActive(false);
         }
+    }
+    IEnumerator EndJump()
+    {
+        yield return new WaitForSeconds(0.5f);
+        movement.Death();
     }
 }

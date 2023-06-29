@@ -9,6 +9,7 @@ public class InputMovement : MonoBehaviour
     public float speed;
     Vector2 moveInput;
     Rigidbody rb;
+    public bool canWalk;
 
 
     public void Start()
@@ -17,7 +18,14 @@ public class InputMovement : MonoBehaviour
     }
     void Update()
     {
-        Walk();
+        if(canWalk == true)
+        {
+            Walk();
+        }
+        else
+        {
+            Debug.Log("you died");
+        }
     }
     public void Walk()
     {
