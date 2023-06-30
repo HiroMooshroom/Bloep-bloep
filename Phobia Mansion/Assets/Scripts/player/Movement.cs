@@ -74,4 +74,8 @@ public class Movement : MonoBehaviour
         PlayerPrefs.SetInt("StartRespawn", 1);
         SceneManager.LoadScene("MainGame");
     }
+    public void OneTimeCinematic()
+    {
+        PlayerPrefs.SetInt("CinematicHasPlayed", 1);
+    }
 }
