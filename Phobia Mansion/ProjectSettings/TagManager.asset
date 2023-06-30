@@ -11,6 +11,8 @@ TagManager:
   - door exit
   - VictoryTrigger
   - TrypoTrigger
+  - NorFootsteps
+  - FleshFootsteps
   layers:
   - Default
   - TransparentFX

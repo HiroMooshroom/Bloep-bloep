@@ -15,6 +15,8 @@ public class AIChildren : MonoBehaviour
     public KeyPickup keyPickUp;
     public Movement movement;
     public InputMovement inputMovement;
+    public AudioSource jumpScare;
+    public CapsuleCollider playerCollider;
 
     public void Update()
     {
@@ -29,6 +31,7 @@ public class AIChildren : MonoBehaviour
     {
         if (other.CompareTag("ChildrenTrigger"))
         {
+            playerCollider.enabled = false;
             jumpCam.SetActive(true);
             StartCoroutine(EndJump());
             agent.isStopped = true;
@@ -36,11 +39,13 @@ public class AIChildren : MonoBehaviour
             inputMovement.canWalk = false;
             player.enabled = false;
             keyPickUp.keyPickedUp.SetActive(false);
+            jumpScare.Play();
+
         }
     }
     IEnumerator EndJump()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(1f);
         movement.Death();
     }
 }
