@@ -5,7 +5,7 @@ using UnityEngine.InputSystem;
 
 public class InputMovement : MonoBehaviour
 {
-    
+    public FootSteps footsteps;
     public float speed;
     Vector2 moveInput;
     Rigidbody rb;
@@ -35,5 +35,6 @@ public class InputMovement : MonoBehaviour
     public void OnMovement(InputValue context)
     {
         moveInput = context.Get<Vector2>();
+        
     }
 }
