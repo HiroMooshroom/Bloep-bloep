@@ -217,6 +217,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kroonluchter (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 86b572221fc17784b9f7786805c469c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86b572221fc17784b9f7786805c469c4, type: 3}
 --- !u!1001 &73813974
@@ -854,14 +859,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 139325908}
-  m_LocalRotation: {x: 0.7045782, y: -0.059746314, z: -0.059746314, w: 0.7045782}
-  m_LocalPosition: {x: -51.94, y: 4.76, z: -2.9400005}
+  m_LocalRotation: {x: 0.67648464, y: -0.027577434, z: -0.45390365, w: 0.5792923}
+  m_LocalPosition: {x: -52.18, y: 2.85, z: -3.5699997}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2047282718}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 80.306, y: -90, z: -90}
+  m_LocalEulerAnglesHint: {x: 49.352, y: -82.66, z: -120.164}
 --- !u!114 &139325910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1193,6 +1198,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hall table_closet (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d, type: 3}
 --- !u!1 &154479118 stripped
@@ -1401,6 +1411,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acc9d2832644ef848a80bd11762fdaac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc9d2832644ef848a80bd11762fdaac, type: 3}
 --- !u!1 &184556926 stripped
@@ -1495,6 +1510,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plafont lamp (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9be9d4af27fdc5442a7b7702371cb03b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9be9d4af27fdc5442a7b7702371cb03b, type: 3}
 --- !u!1 &218818505
@@ -1523,7 +1543,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 218818505}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -26, y: 6.555, z: 12.97}
+  m_LocalPosition: {x: -26, y: 5.593, z: 12.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2099,6 +2119,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kistje1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 25c9917d741fb70439a6267856b5f589,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25c9917d741fb70439a6267856b5f589, type: 3}
 --- !u!4 &280413103 stripped
@@ -2250,12 +2275,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307777349}
   m_LocalRotation: {x: 0.8251726, y: 0, z: 0, w: 0.56488067}
-  m_LocalPosition: {x: -32.03, y: 3.09, z: -0.298}
+  m_LocalPosition: {x: -31.986, y: 3.09, z: 0.529}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1306604416}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 111.212, y: 0, z: 0}
 --- !u!114 &307777351
 MonoBehaviour:
@@ -3118,6 +3143,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Planten bak (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b4a51d23a1e21f42bec3a18c68c58bd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b4a51d23a1e21f42bec3a18c68c58bd, type: 3}
 --- !u!1 &419085975 stripped
@@ -3171,7 +3201,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1306604416}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 87.587, y: 0, z: 0}
 --- !u!114 &428982353
 MonoBehaviour:
@@ -3645,6 +3675,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acc9d2832644ef848a80bd11762fdaac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc9d2832644ef848a80bd11762fdaac, type: 3}
 --- !u!1 &471980249 stripped
@@ -3682,7 +3717,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9be9d4af27fdc5442a7b7702371cb03b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -20.07
+      value: -19.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9be9d4af27fdc5442a7b7702371cb03b,
         type: 3}
@@ -3738,6 +3773,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plafont lamp (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9be9d4af27fdc5442a7b7702371cb03b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9be9d4af27fdc5442a7b7702371cb03b, type: 3}
@@ -4597,6 +4637,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hall table_closet (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d, type: 3}
 --- !u!1 &549748726 stripped
@@ -4987,6 +5032,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hall table_closet (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d, type: 3}
 --- !u!1 &582837663 stripped
@@ -5276,7 +5326,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 9be9d4af27fdc5442a7b7702371cb03b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.389
+      value: -5.771
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 9be9d4af27fdc5442a7b7702371cb03b,
         type: 3}
@@ -5332,6 +5382,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plafont lamp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9be9d4af27fdc5442a7b7702371cb03b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9be9d4af27fdc5442a7b7702371cb03b, type: 3}
@@ -5908,6 +5963,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nietmachine
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3b58c0fc065f6a4f8b76d7b3d2aa9ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3b58c0fc065f6a4f8b76d7b3d2aa9ce, type: 3}
 --- !u!4 &665328158 stripped
@@ -6469,6 +6529,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kroonluchter (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 86b572221fc17784b9f7786805c469c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86b572221fc17784b9f7786805c469c4, type: 3}
@@ -7654,14 +7719,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 916608810}
-  m_LocalRotation: {x: 0.82517344, y: -0, z: -0, w: 0.56487954}
-  m_LocalPosition: {x: -45.92, y: 2.67, z: -0.55}
+  m_LocalRotation: {x: 0.91608536, y: -0, z: -0, w: 0.40098336}
+  m_LocalPosition: {x: -45.92, y: 2.67, z: 0.68200016}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1306604416}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 111.212006, y: 0, z: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 132.72101, y: 0, z: 0}
 --- !u!114 &916608812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7770,12 +7835,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 919105632}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -26, y: 6.7500005, z: 4.24}
+  m_LocalPosition: {x: -26, y: 5.632, z: 6.173}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1306604416}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &919105634
 MonoBehaviour:
@@ -7963,7 +8028,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 2
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -8587,6 +8652,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acc9d2832644ef848a80bd11762fdaac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc9d2832644ef848a80bd11762fdaac, type: 3}
 --- !u!1 &1019199273 stripped
@@ -8910,6 +8980,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acc9d2832644ef848a80bd11762fdaac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc9d2832644ef848a80bd11762fdaac, type: 3}
@@ -9351,6 +9426,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Kroonluchter
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 86b572221fc17784b9f7786805c469c4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86b572221fc17784b9f7786805c469c4, type: 3}
@@ -9807,7 +9887,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1306604416}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 135.637, y: 0, z: 0}
 --- !u!114 &1211556485
 MonoBehaviour:
@@ -10052,6 +10132,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plafont lamp (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9be9d4af27fdc5442a7b7702371cb03b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9be9d4af27fdc5442a7b7702371cb03b, type: 3}
 --- !u!1 &1219057579 stripped
@@ -10161,6 +10246,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bank
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9c981157cdaaa70438973e1907b478ae,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c981157cdaaa70438973e1907b478ae, type: 3}
 --- !u!4 &1227934411 stripped
@@ -10220,7 +10310,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1306604416}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!114 &1244600875
 MonoBehaviour:
@@ -10534,13 +10624,14 @@ Transform:
   - {fileID: 2058207260}
   - {fileID: 805459986}
   - {fileID: 1320411888}
-  - {fileID: 1984322169}
   - {fileID: 1244600874}
   - {fileID: 916608811}
   - {fileID: 307777350}
   - {fileID: 1211556484}
   - {fileID: 919105633}
   - {fileID: 428982352}
+  - {fileID: 1687500283}
+  - {fileID: 2128492578}
   m_Father: {fileID: 1499453474}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11391,6 +11482,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hall table_closet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d, type: 3}
 --- !u!1 &1358508385 stripped
@@ -11499,6 +11595,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Nietmachine (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d3b58c0fc065f6a4f8b76d7b3d2aa9ce,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3b58c0fc065f6a4f8b76d7b3d2aa9ce, type: 3}
@@ -11754,6 +11855,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Hall table_closet
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d, type: 3}
@@ -12012,6 +12118,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Planten bak (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b4a51d23a1e21f42bec3a18c68c58bd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b4a51d23a1e21f42bec3a18c68c58bd, type: 3}
@@ -13280,6 +13391,121 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70d54b6596fdfe4e8955062590f43ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1687500282
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1687500283}
+  - component: {fileID: 1687500285}
+  - component: {fileID: 1687500284}
+  m_Layer: 0
+  m_Name: Spot Light (26)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1687500283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687500282}
+  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+  m_LocalPosition: {x: -53, y: 3.183, z: 0.61}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1306604416}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &1687500284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687500282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+--- !u!108 &1687500285
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687500282}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 0.9411765, g: 0.84705883, b: 0.7647059, a: 1}
+  m_Intensity: 50
+  m_Range: 20
+  m_SpotAngle: 61.556572
+  m_InnerSpotAngle: 0
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 4841
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &1690517873 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: e77835f9bcf67ee409a02fb6dcfe1540,
@@ -13428,6 +13654,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Planten bak
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9b4a51d23a1e21f42bec3a18c68c58bd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b4a51d23a1e21f42bec3a18c68c58bd, type: 3}
@@ -14551,7 +14782,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1840640818}
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -26, y: 5.19, z: 19.97}
+  m_LocalPosition: {x: -26, y: 5.78, z: 19.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15086,6 +15317,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plafont lamp (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9be9d4af27fdc5442a7b7702371cb03b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9be9d4af27fdc5442a7b7702371cb03b, type: 3}
@@ -15822,6 +16058,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Hall table_closet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2a48cf1f6dd7abd489fd3e4acdbe7b8d, type: 3}
 --- !u!1 &1943154179 stripped
@@ -16191,6 +16432,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plafont lamp
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9be9d4af27fdc5442a7b7702371cb03b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9be9d4af27fdc5442a7b7702371cb03b, type: 3}
 --- !u!4 &1972649166 stripped
@@ -16355,121 +16601,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982582258}
   m_CullTransparentMesh: 1
---- !u!1 &1984322168
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1984322169}
-  - component: {fileID: 1984322171}
-  - component: {fileID: 1984322170}
-  m_Layer: 0
-  m_Name: Spot Light (21)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1984322169
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984322168}
-  m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -52.84, y: 3.035, z: 2.52}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1306604416}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!114 &1984322170
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984322168}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Version: 1
-  m_UsePipelineSettings: 1
-  m_AdditionalLightsShadowResolutionTier: 2
-  m_LightLayerMask: 1
-  m_CustomShadowLayers: 0
-  m_ShadowLayerMask: 1
-  m_LightCookieSize: {x: 1, y: 1}
-  m_LightCookieOffset: {x: 0, y: 0}
---- !u!108 &1984322171
-Light:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1984322168}
-  m_Enabled: 1
-  serializedVersion: 10
-  m_Type: 0
-  m_Shape: 0
-  m_Color: {r: 0.9411765, g: 0.84705883, b: 0.7647059, a: 1}
-  m_Intensity: 20
-  m_Range: 20
-  m_SpotAngle: 113.62509
-  m_InnerSpotAngle: 21.40598
-  m_CookieSize: 10
-  m_Shadows:
-    m_Type: 1
-    m_Resolution: -1
-    m_CustomResolution: -1
-    m_Strength: 1
-    m_Bias: 0.05
-    m_NormalBias: 0.4
-    m_NearPlane: 0.2
-    m_CullingMatrixOverride:
-      e00: 1
-      e01: 0
-      e02: 0
-      e03: 0
-      e10: 0
-      e11: 1
-      e12: 0
-      e13: 0
-      e20: 0
-      e21: 0
-      e22: 1
-      e23: 0
-      e30: 0
-      e31: 0
-      e32: 0
-      e33: 1
-    m_UseCullingMatrixOverride: 0
-  m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
-  m_Flare: {fileID: 0}
-  m_RenderMode: 1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingLayerMask: 1
-  m_Lightmapping: 2
-  m_LightShadowCasterMode: 0
-  m_AreaSize: {x: 1, y: 1}
-  m_BounceIntensity: 1
-  m_ColorTemperature: 4841
-  m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
-  m_ShadowRadius: 0
-  m_ShadowAngle: 0
 --- !u!1001 &1989482480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16722,6 +16853,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Plant
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: acc9d2832644ef848a80bd11762fdaac,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: acc9d2832644ef848a80bd11762fdaac, type: 3}
@@ -17145,6 +17281,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Vleugel
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4bff3ca1082daef4ba9a3897cd4fdf84,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4bff3ca1082daef4ba9a3897cd4fdf84, type: 3}
@@ -18078,3 +18219,118 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 8994988200701156568, guid: ff2f5d59f6453fb4caece388872f1c97, type: 3}
+--- !u!1 &2128492577
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2128492578}
+  - component: {fileID: 2128492580}
+  - component: {fileID: 2128492579}
+  m_Layer: 0
+  m_Name: Spot Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2128492578
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128492577}
+  m_LocalRotation: {x: 0.69206136, y: -0, z: -0, w: 0.7218388}
+  m_LocalPosition: {x: -39.36, y: 2.73, z: 0.633}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1306604416}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 87.587, y: 0, z: 0}
+--- !u!114 &2128492579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128492577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 1
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+--- !u!108 &2128492580
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128492577}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 0
+  m_Shape: 0
+  m_Color: {r: 0.9411765, g: 0.84705883, b: 0.7647059, a: 1}
+  m_Intensity: 10
+  m_Range: 10
+  m_SpotAngle: 71.91374
+  m_InnerSpotAngle: 36.367893
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 1
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 2
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 4841
+  m_UseColorTemperature: 1
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
