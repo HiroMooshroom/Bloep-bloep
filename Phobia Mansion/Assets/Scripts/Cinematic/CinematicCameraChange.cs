@@ -27,6 +27,8 @@ public class CinematicCameraChange : MonoBehaviour
             voiceOver.enabled = false;
             music.enabled = true;
             door2.SetActive(false);
+            slider1.SetActive(false);
+            slider2.SetActive(false);
         }
     }
     IEnumerator EndCinematic()
