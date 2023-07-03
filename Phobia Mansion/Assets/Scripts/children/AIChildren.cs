@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class AIChildren : MonoBehaviour
 {
+    public GameObject respawnCanvas;
     public bool died;
     public MeshRenderer player;
     public Animator animator;
@@ -46,6 +47,11 @@ public class AIChildren : MonoBehaviour
     IEnumerator EndJump()
     {
         yield return new WaitForSeconds(1f);
+        respawnCanvas.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+    }
+    public void RespawnButton()
+    {
         movement.Death();
     }
 }

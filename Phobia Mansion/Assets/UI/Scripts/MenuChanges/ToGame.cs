@@ -9,5 +9,6 @@ public class ToGame : MonoBehaviour
     public void ToMainGame()
     {
         SceneManager.LoadScene("MainGame");
+        PlayerPrefs.SetInt("CinematicHasPlayed", 0);
     }
 }

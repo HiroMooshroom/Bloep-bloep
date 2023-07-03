@@ -8,5 +8,6 @@ public class ToMenu : MonoBehaviour
     public void ToMainMenu()
     {
         SceneManager.LoadScene("UIMenus");
+        PlayerPrefs.SetInt("CinematicHasPlayed", 0);
     }
 }

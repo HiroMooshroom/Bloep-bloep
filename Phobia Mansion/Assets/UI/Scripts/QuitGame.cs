@@ -9,6 +9,7 @@ public class QuitGame : MonoBehaviour
     {
         Application.Quit();
         Debug.Log("Game is closing");
+        PlayerPrefs.SetInt("CinematicHasPlayed", 0);
     }
 }
         
