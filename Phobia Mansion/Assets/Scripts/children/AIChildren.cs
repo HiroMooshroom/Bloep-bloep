@@ -41,7 +41,6 @@ public class AIChildren : MonoBehaviour
             player.enabled = false;
             keyPickUp.keyPickedUp.SetActive(false);
             jumpScare.Play();
-
         }
     }
     IEnumerator EndJump()
