@@ -13,6 +13,7 @@ public class CinematicCameraChange : MonoBehaviour
     public AudioSource music;
     public AudioSource voiceOver;
     public GameObject cinematicCamera;
+    
 
     public void Start()
     {
