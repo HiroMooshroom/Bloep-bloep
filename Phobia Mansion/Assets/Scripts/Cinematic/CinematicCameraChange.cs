@@ -34,7 +34,7 @@ public class CinematicCameraChange : MonoBehaviour
     }
     IEnumerator EndCinematic()
     {
-        yield return new WaitForSeconds(28);
+        yield return new WaitForSeconds(29);
         cinematicCamera.SetActive(false);
         music.enabled = true;
         OneTimeCinematic();
