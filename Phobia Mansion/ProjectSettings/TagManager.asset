@@ -14,6 +14,7 @@ TagManager:
   - NorFootsteps
   - FleshFootsteps
   - LobbyMusicSwitch
+  - PickUpEffect
   layers:
   - Default
   - TransparentFX
