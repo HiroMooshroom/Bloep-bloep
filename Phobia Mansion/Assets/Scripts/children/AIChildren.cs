@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 
 public class AIChildren : MonoBehaviour
 {
+    public Animator childWalk;
     public GameObject respawnCanvas;
     public bool died;
     public MeshRenderer player;
@@ -27,7 +28,8 @@ public class AIChildren : MonoBehaviour
         {
             agent.isStopped = false;
             agent.destination = transform.position;
-            died = false;         
+            died = false;
+            childWalk.SetTrigger("ChildWalk");
         }
     }
     public void OnTriggerEnter(Collider other)
