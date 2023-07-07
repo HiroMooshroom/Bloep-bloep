@@ -18,6 +18,8 @@ public class AIChildren : MonoBehaviour
     public InputMovement inputMovement;
     public AudioSource jumpScare;
     public CapsuleCollider playerCollider;
+    
+    
 
     public void Update()
     {
@@ -25,7 +27,7 @@ public class AIChildren : MonoBehaviour
         {
             agent.isStopped = false;
             agent.destination = transform.position;
-            died = false;
+            died = false;         
         }
     }
     public void OnTriggerEnter(Collider other)
