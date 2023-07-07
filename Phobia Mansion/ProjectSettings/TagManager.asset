@@ -15,6 +15,7 @@ TagManager:
   - FleshFootsteps
   - LobbyMusicSwitch
   - PickUpEffect
+  - KeyPickupVO
   layers:
   - Default
   - TransparentFX

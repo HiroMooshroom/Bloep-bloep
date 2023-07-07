@@ -1,11 +1,14 @@
 using Cinemachine;
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class CinematicCameraChange : MonoBehaviour
 {
+    public AudioSource doorShutsVO;
     public GameObject slider1, slider2;
     public GameObject door1, door2;
     public CameraMovement cmove;
@@ -13,6 +16,10 @@ public class CinematicCameraChange : MonoBehaviour
     public AudioSource music;
     public AudioSource voiceOver;
     public GameObject cinematicCamera;
+    public bool canOpenDoor;
+    public bool canPlayMusic;
+    public float musicSaverIG;
+    public AudioMixer musicMixer;
     
 
     public void Start()
@@ -31,6 +38,7 @@ public class CinematicCameraChange : MonoBehaviour
             slider1.SetActive(false);
             slider2.SetActive(false);
         }
+        musicSaverIG = PlayerPrefs.GetFloat("Music");
     }
     IEnumerator EndCinematic()
     {
@@ -43,9 +51,21 @@ public class CinematicCameraChange : MonoBehaviour
         door1.SetActive(true);
         slider1.SetActive(false); 
         slider2.SetActive(false);
+        StartCoroutine(StartNewVO());
+        doorShutsVO.Play();
+        canPlayMusic = false;
+        musicMixer.SetFloat("Music", -20f);
     }
     public void OneTimeCinematic()
     {
         PlayerPrefs.SetInt("CinematicHasPlayed", 1);
+    }
+    
+    IEnumerator StartNewVO()
+    {
+        yield return new WaitForSeconds(31);
+        canOpenDoor = true;
+        canPlayMusic = true;
+        musicMixer.SetFloat("Music", musicSaverIG);
     }
 }

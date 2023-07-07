@@ -11,7 +11,6 @@ public class AIChildren : MonoBehaviour
     public GameObject respawnCanvas;
     public bool died;
     public MeshRenderer player;
-    public Animator animator;
     public GameObject jumpCam;
     public NavMeshAgent agent;
     public KeyPickup keyPickUp;
@@ -29,7 +28,7 @@ public class AIChildren : MonoBehaviour
             agent.isStopped = false;
             agent.destination = transform.position;
             died = false;
-            childWalk.SetTrigger("ChildWalk");
+            childWalk.SetInteger("ChildWalk", 1);
         }
     }
     public void OnTriggerEnter(Collider other)
@@ -45,6 +44,7 @@ public class AIChildren : MonoBehaviour
             player.enabled = false;
             keyPickUp.keyPickedUp.SetActive(false);
             jumpScare.Play();
+            childWalk.SetInteger("ChildWalk", 0);
         }
     }
     IEnumerator EndJump()

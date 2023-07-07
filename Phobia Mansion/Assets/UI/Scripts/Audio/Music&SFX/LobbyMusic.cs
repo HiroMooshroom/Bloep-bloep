@@ -15,7 +15,6 @@ public class LobbyMusic : MonoBehaviour
     {
         if (other.CompareTag("LobbyMusicSwitch"))
         {
-            
             music.clip = lobbiMusic;
             music.Play();
         }
